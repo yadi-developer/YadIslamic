@@ -52,7 +52,7 @@ let yadi = {
           item.image_url,
           item.name,
           item.description.substr(0, 70) +
-            ` ...<a href='/?${item.name}'>Baca selengkapnya</a>`,
+            ` ...<a href='?${item.name}'>Baca selengkapnya</a>`,
           item.tmp,
           item.thn_kelahiran,
           item.usia
@@ -93,7 +93,7 @@ let yadi = {
           }</li>
         </ul>
         <div class="card-body">
-          <a class="btn btn-primary reff" href="/?${nama}">Baca Selengkapnya</a>
+          <a class="btn btn-primary reff" href="?${nama}">Baca Selengkapnya</a>
         </div>
       </div>`,
   },
