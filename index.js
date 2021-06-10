@@ -1,3 +1,4 @@
+alert('Selamat datang')
 const base_url = "https://islamic-api-indonesia.herokuapp.com/api/";
 let yadi = {
   quotes: "data/quotes",
