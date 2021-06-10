@@ -229,17 +229,6 @@ clickCetak(
   yadi.kisahNabi.execute
 );
 
-const top_url = window.location.href;
-const linkerView = (base_url) => {
-  let url = base_url.split("/");
-  url.forEach((item) => {
-    if (item.includes("yadi")) {
-      document.body.innerHTML = window.location.href;
-    }
-  });
-};
-linkerView(top_url);
-
 document.getElementById("searchBar").addEventListener("click", (e) => {
   alert(
     "Fitur search saat ini sedang di kembangkan mohon tunggu update selanjutnya versi saat ini v.0.0.4"
